@@ -19,7 +19,7 @@ Go to Manage Extension in CiviCRM and Enable Extension.
 
 Use Instructions:
 --------------------
-Go to CiviCRM Memberships >> Find Memberships 
+Go to CiviCRM >> Memberships >> Find Memberships 
 Select Memberships And Choose 'Renew & Create Contributions' in Actions and Follow the Procedure
 
 
