@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+ <extension key="nfpservices.co.uk.module.membership_pending_contribution" type="module">
+  <downloadUrl>https://www.nfpservices.co.uk/</downloadUrl>
+  <file>civicrm_membership_pending_contribution</file>
+  <name>Civicrm Membership Pending Contribution</name>
+  <description>Civicrm Membership Create Pending Contribution</description>
+  <urls>
+    <url desc="Main Extension Page">http://civicrm.org</url>      
+    <url desc="Support">http://forum.civicrm.org</url>
+    <url desc="Licensing">http://civicrm.org/licensing</url>
+  </urls>
+  <license>AGPL</license>
+  <maintainer>
+    <author>Jag</author>
+    <email>jag@millertech.co.uk</email>
+  </maintainer>
+  <releaseDate>2013-05-03</releaseDate>
+  <version>1.0</version>
+  <develStage>beta</develStage>
+  <compatibility>
+    <ver>4.2</ver>
+  </compatibility>
+  <comments>For support, please contact project team on the forums. (http://forum.civicrm.org)</comments>
+</extension>
