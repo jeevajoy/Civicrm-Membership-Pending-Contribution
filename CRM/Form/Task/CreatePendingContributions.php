@@ -190,10 +190,14 @@ class CRM_Form_Task_CreatePendingContributions extends CRM_Member_Form_Task {
         		}
         		$i++;
         }
-        if ( $i ) { 
-            $status[] = ts('Total contributions(s) created: %1', array(1 => $i));   
+         if ( $i ) { 
+            if($_POST['is_renew']){
+               $status[] = ts('Total Memberships(s) with Contribution renewed: %1 <br />', array(1 => $i));  
+            }else{
+               $status[] = ts('Total Contributions(s) created: %1', array(1 => $i)); 
+            }               
         }
-    		$status = @ implode( '<br/>', $status );
+    	$status = @ implode( '<br/>', $status );
         CRM_Core_Session::setStatus( $status );
 	}//end of function
 }
